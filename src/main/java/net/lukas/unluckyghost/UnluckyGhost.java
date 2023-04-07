@@ -1,6 +1,7 @@
 package net.lukas.unluckyghost;
 
 import com.mojang.logging.LogUtils;
+import net.lukas.unluckyghost.item.ModCreativeModeTabs;
 import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -56,7 +57,7 @@ public class UnluckyGhost
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+        if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB) {
             event.accept(ModItems.TEST_ITEM);
         }
     }
