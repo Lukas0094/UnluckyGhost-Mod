@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, UnluckyGhost.MOD_ID);
 
-    public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item",
+    public static final RegistryObject<Item> GHOST_ITEM = ITEMS.register("ghost_item",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

@@ -58,7 +58,7 @@ public class UnluckyGhost
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB) {
-            event.accept(ModItems.TEST_ITEM);
+            event.accept(ModItems.GHOST_ITEM);
         }
     }
 

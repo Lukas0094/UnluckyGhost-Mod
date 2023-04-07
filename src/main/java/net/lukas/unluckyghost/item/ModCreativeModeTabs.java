@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         UNLUCKYGHOST_TAB = event.registerCreativeModeTab(new ResourceLocation(UnluckyGhost.MOD_ID, "unluckyghost_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.TEST_ITEM.get()))
+                builder -> builder.icon(() -> new ItemStack(ModItems.GHOST_ITEM.get()))
                         .title(Component.translatable("creativemodetab.unluckyghost_tab")));
     }
 }
