@@ -1,6 +1,7 @@
 package net.lukas.unluckyghost.block;
 
 import net.lukas.unluckyghost.UnluckyGhost;
+import net.lukas.unluckyghost.block.custom.WoodenBaricadeBlock;
 import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> WOODEN_BARICADE = registerBlock("wooden_baricade",
+            () -> new WoodenBaricadeBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

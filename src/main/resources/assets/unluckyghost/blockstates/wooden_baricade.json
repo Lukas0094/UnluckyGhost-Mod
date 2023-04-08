@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unluckyghost:block/wooden_baricade",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "unluckyghost:block/wooden_baricade"
+    },
+    "facing=west": {
+      "model": "unluckyghost:block/wooden_baricade",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "unluckyghost:block/wooden_baricade",
+      "y": 270
+    }
+  }
+}
