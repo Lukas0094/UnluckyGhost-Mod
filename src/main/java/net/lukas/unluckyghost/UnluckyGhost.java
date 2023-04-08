@@ -1,10 +1,12 @@
 package net.lukas.unluckyghost;
 
 import com.mojang.logging.LogUtils;
+import net.lukas.unluckyghost.block.ModBlocks;
 import net.lukas.unluckyghost.item.ModCreativeModeTabs;
 import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -40,6 +42,7 @@ public class UnluckyGhost
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -59,6 +62,11 @@ public class UnluckyGhost
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB) {
             event.accept(ModItems.GHOST_ITEM);
+            event.accept(ModBlocks.TEST_BLOCK);
+        }
+
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TEST_BLOCK);
         }
     }
 
