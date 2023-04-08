@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "NPN",
+    "PPP"
+  ],
+  "result": {
+    "item": "unluckyghost:wooden_baricade",
+    "count": 2
+  }
+}
