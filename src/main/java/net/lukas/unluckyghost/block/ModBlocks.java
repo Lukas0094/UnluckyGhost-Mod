@@ -20,12 +20,12 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, UnluckyGhost.MOD_ID);
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(6f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> WOODEN_BARICADE = registerBlock("wooden_baricade",
             () -> new WoodenBaricadeBlock(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
+                    .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
