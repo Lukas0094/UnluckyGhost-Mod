@@ -21,12 +21,32 @@ public class WoodenBaricadeBlock extends HorizontalDirectionalBlock {
         super(properties);
     }
 
-    public static final VoxelShape SHAPE =
-            Block.box(0, 4, 0, 16, 13, 16);
+    public static final VoxelShape SHAPE_N =
+            Block.box(0, 3, 15, 16, 16, 16);
+
+    public static final VoxelShape SHAPE_E =
+            Block.box(0, 3, 0, 1, 16, 16);
+
+    public static final VoxelShape SHAPE_S =
+            Block.box(0, 3, 0, 16, 16, 1);
+
+    public static final VoxelShape SHAPE_W =
+            Block.box(15, 3, 0, 16, 16, 16);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
-        return super.getShape(p_60555_, p_60556_, p_60557_, p_60558_);
+        switch (p_60555_.getValue(FACING)) {
+            case NORTH:
+                return SHAPE_N;
+            case EAST:
+                return SHAPE_E;
+            case WEST:
+                return SHAPE_W;
+            case SOUTH:
+                return SHAPE_S;
+            default:
+                return SHAPE_S;
+        }
     }
 
     @Override

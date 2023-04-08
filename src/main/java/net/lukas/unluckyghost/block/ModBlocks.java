@@ -24,7 +24,7 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> WOODEN_BARICADE = registerBlock("wooden_baricade",
-            () -> new WoodenBaricadeBlock(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new WoodenBaricadeBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
 
 
