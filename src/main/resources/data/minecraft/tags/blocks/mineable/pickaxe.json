@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "unluckyghost:test_block"
+    "unluckyghost:test_block",
+    "unluckyghost:rusty_sink"
   ]
 }
