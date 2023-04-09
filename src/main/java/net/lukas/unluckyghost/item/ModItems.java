@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> GHOST_ITEM = ITEMS.register("ghost_item",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CERAMIC_SHARD = ITEMS.register("ceramic_shard",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
