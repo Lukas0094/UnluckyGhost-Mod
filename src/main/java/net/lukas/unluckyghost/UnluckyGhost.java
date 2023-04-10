@@ -62,9 +62,10 @@ public class UnluckyGhost
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB) {
             event.accept(ModItems.GHOST_ITEM);
-            event.accept(ModBlocks.WOODEN_BARICADE);
             event.accept(ModBlocks.RUSTY_SINK);
+            event.accept(ModBlocks.WOODEN_BARICADE);
             event.accept(ModItems.CERAMIC_SHARD);
+            event.accept(ModItems.IRON_SHARD);
         }
 
     }

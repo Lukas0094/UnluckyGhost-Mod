@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "unluckyghost:iron_shard"
+  },
+  "result": "minecraft:iron_ingot"
+}
