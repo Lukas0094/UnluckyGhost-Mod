@@ -2,6 +2,7 @@ package net.lukas.unluckyghost.block;
 
 import net.lukas.unluckyghost.UnluckyGhost;
 import net.lukas.unluckyghost.block.custom.RustySinkBlock;
+import net.lukas.unluckyghost.block.custom.StrangeNotesBlock;
 import net.lukas.unluckyghost.block.custom.WoodenBaricadeBlock;
 import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -32,6 +33,10 @@ public class ModBlocks {
             () -> new RustySinkBlock(BlockBehaviour.Properties.of(Material.CLAY)
                     .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
 
+    public static final RegistryObject<Block> STRANGE_NOTES = registerBlock("strange_notes",
+            () -> new StrangeNotesBlock(BlockBehaviour.Properties.of(Material.PLANT)
+                    .strength(1f).requiresCorrectToolForDrops().noOcclusion()));
+    
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
