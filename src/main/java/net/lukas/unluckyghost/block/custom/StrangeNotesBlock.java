@@ -22,16 +22,16 @@ public class StrangeNotesBlock extends HorizontalDirectionalBlock {
     }
 
     public static final VoxelShape SHAPE_N =
-            Block.box(0, 0, 0, 16, 1, 16);
+            Block.box(0, 0, 0, 16, 0.15, 16);
 
     public static final VoxelShape SHAPE_E =
-            Block.box(0, 0, 0, 6, 1, 16);
+            Block.box(0, 0, 0, 16, 0.15, 16);
 
     public static final VoxelShape SHAPE_S =
-            Block.box(0, 0, 0, 16, 1, 16);
+            Block.box(0, 0, 0, 16, 0.15, 16);
 
     public static final VoxelShape SHAPE_W =
-            Block.box(0, 0, 0, 16, 1, 16);
+            Block.box(0, 0, 0, 16, 0.15, 16);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
