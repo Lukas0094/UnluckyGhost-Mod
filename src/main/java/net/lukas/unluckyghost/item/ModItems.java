@@ -23,7 +23,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FIREAXE = ITEMS.register("fireaxe",
-            () -> new AxeItem(Tiers.IRON, 10, 5f,
+            () -> new AxeItem(Tiers.IRON, 6, 1f,
                     new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

@@ -35,7 +35,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STRANGE_NOTES = registerBlock("strange_notes",
             () -> new StrangeNotesBlock(BlockBehaviour.Properties.of(Material.PLANT)
-                    .strength(0f).requiresCorrectToolForDrops().noOcclusion()));
+                    .strength(0f).noOcclusion()));
     
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

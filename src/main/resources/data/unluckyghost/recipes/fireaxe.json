@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "IRN",
+    " S ",
+    " B "
+  ],
+  "result": {
+    "item": "unluckyghost:fireaxe",
+    "count": 1
+  }
+}
