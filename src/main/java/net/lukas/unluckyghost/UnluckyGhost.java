@@ -63,6 +63,7 @@ public class UnluckyGhost
         if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB) {
             event.accept(ModItems.GHOST_ITEM);
             event.accept(ModBlocks.RUSTY_SINK);
+            event.accept(ModBlocks.LOCKER);
             event.accept(ModBlocks.WOODEN_BARICADE);
             event.accept(ModBlocks.STRANGE_NOTES);
             event.accept(ModItems.CERAMIC_SHARD);

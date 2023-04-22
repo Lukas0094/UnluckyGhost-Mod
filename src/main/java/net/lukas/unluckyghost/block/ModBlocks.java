@@ -1,6 +1,7 @@
 package net.lukas.unluckyghost.block;
 
 import net.lukas.unluckyghost.UnluckyGhost;
+import net.lukas.unluckyghost.block.custom.LockerBlock;
 import net.lukas.unluckyghost.block.custom.RustySinkBlock;
 import net.lukas.unluckyghost.block.custom.StrangeNotesBlock;
 import net.lukas.unluckyghost.block.custom.WoodenBaricadeBlock;
@@ -36,6 +37,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRANGE_NOTES = registerBlock("strange_notes",
             () -> new StrangeNotesBlock(BlockBehaviour.Properties.of(Material.PLANT)
                     .strength(0f).noOcclusion()));
+
+    public static final RegistryObject<Block> LOCKER = registerBlock("locker",
+            () -> new LockerBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).noOcclusion()));
     
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
