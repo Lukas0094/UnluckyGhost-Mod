@@ -2,18 +2,18 @@
   "variants": {
     "facing=north": {
       "model": "unluckyghost:block/locker",
-      "y": 180
+      "y": 90
     },
     "facing=south": {
-      "model": "unluckyghost:block/locker"
+      "model": "unluckyghost:block/locker",
+      "y": 270
     },
     "facing=west": {
-      "model": "unluckyghost:block/locker",
-      "y": 90
+      "model": "unluckyghost:block/locker"
     },
     "facing=east": {
       "model": "unluckyghost:block/locker",
-      "y": 270
+      "y": 180
     }
   }
 }

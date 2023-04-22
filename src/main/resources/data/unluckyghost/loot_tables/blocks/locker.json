@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "unluckyghost:wooden_baricade"
+          "name": "unluckyghost:locker"
         }
       ],
       "rolls": 1.0
