@@ -3,6 +3,7 @@
   "values": [
     "unluckyghost:test_block",
     "unluckyghost:rusty_sink",
-    "unluckyghost:locker"
+    "unluckyghost:locker",
+    "unluckyghost:empty_bed"
   ]
 }

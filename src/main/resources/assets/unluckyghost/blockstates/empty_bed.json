@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unluckyghost:block/empty_bed"
+    },
+    "facing=south": {
+      "model": "unluckyghost:block/empty_bed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unluckyghost:block/empty_bed",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "unluckyghost:block/empty_bed",
+      "y": 90
+    }
+  }
+}

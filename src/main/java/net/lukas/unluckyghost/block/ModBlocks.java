@@ -1,10 +1,7 @@
 package net.lukas.unluckyghost.block;
 
 import net.lukas.unluckyghost.UnluckyGhost;
-import net.lukas.unluckyghost.block.custom.LockerBlock;
-import net.lukas.unluckyghost.block.custom.RustySinkBlock;
-import net.lukas.unluckyghost.block.custom.StrangeNotesBlock;
-import net.lukas.unluckyghost.block.custom.WoodenBaricadeBlock;
+import net.lukas.unluckyghost.block.custom.*;
 import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -40,6 +37,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> LOCKER = registerBlock("locker",
             () -> new LockerBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).noOcclusion()));
+
+    public static final RegistryObject<Block> EMPTYBED = registerBlock("empty_bed",
+            () -> new EmptyBedBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f).noOcclusion()));
     
 
