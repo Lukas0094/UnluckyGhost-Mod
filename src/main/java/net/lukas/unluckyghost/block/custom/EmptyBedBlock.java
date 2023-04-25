@@ -25,10 +25,10 @@ public class EmptyBedBlock extends HorizontalDirectionalBlock {
             Block.box(-16, 0, 0, 16, 6, 16);
 
     public static final VoxelShape SHAPE_S =
-            Block.box(-0, 0, 0, 16, 6, 32);
+            Block.box(0, 0, -16, 16, 6, 16);
 
     public static final VoxelShape SHAPE_W =
-            Block.box(-16, 0, 0, 16, 6, 16);
+            Block.box(0, 0, 0, 32, 6, 16);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {

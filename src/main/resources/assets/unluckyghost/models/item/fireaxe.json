@@ -5,7 +5,7 @@
     "3": "unluckyghost:item/fireaxe_metal",
     "4": "unluckyghost:item/fireaxe_red",
     "5": "unluckyghost:item/fireaxe_wood",
-    "particle": "unluckyghost:item/fireaxe_wood"
+    "particle": "unluckyghost:item/fireaxe_red"
   },
   "elements": [
     {
@@ -137,7 +137,8 @@
     },
     "fixed": {
       "rotation": [-61.75, -90, 0],
-      "translation": [0, -7.25, -9.75]
+      "translation": [-6, 2, -20.5],
+      "scale": [1.99, 1.99, 1.99]
     }
   }
 }
