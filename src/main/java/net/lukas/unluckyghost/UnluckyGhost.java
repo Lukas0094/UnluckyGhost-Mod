@@ -70,6 +70,7 @@ public class UnluckyGhost
             event.accept(ModItems.CERAMIC_SHARD);
             event.accept(ModItems.IRON_SHARD);
             event.accept(ModItems.FIREAXE);
+            event.accept(ModItems.PHOTO_CAMERA);
         }
 
     }

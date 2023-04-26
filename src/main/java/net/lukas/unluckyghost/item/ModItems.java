@@ -26,6 +26,9 @@ public class ModItems {
             () -> new AxeItem(Tiers.IRON, 6, -3f,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> PHOTO_CAMERA = ITEMS.register("photo_camera",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
