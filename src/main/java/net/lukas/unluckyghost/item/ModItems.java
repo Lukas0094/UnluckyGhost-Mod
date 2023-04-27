@@ -29,6 +29,9 @@ public class ModItems {
     public static final RegistryObject<Item> PHOTO_CAMERA = ITEMS.register("photo_camera",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BLUE_POTATO = ITEMS.register("blue_potato",
+            () -> new Item(new Item.Properties().food(ModFoods.BLUE_POTATO)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

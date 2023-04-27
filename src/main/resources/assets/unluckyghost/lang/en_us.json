@@ -2,8 +2,11 @@
   "item.unluckyghost.ghost_item": "Ghost Plushy",
   "item.unluckyghost.ceramic_shard": "Ceramic Shard",
   "item.unluckyghost.iron_shard": "Iron Shard",
+  "item.unluckyghost.blue_potato": "Blue Potato",
   "item.unluckyghost.fireaxe": "Fireaxe",
   "item.unluckyghost.photo_camera": "Photo Camera",
+
+  "item.blue_potato.tooltip": "A delicious blue potato!",
 
   "block.unluckyghost.test_block": "Test Block",
   "block.unluckyghost.wooden_baricade": "Wooden Barricade",
