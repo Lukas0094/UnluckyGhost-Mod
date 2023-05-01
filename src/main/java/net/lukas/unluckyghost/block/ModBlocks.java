@@ -42,6 +42,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> EMPTYBED = registerBlock("empty_bed",
             () -> new EmptyBedBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(3f).noOcclusion()));
+
+    public static final RegistryObject<Block> GRAVESTONE = registerBlock("gravestone",
+            () -> new GravestoneBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
     
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

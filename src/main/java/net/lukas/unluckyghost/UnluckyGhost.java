@@ -66,10 +66,10 @@ public class UnluckyGhost
             event.accept(ModBlocks.LOCKER);
             event.accept(ModBlocks.EMPTYBED);
             event.accept(ModBlocks.WOODEN_BARICADE);
+            event.accept(ModBlocks.GRAVESTONE);
             event.accept(ModBlocks.STRANGE_NOTES);
             event.accept(ModItems.CERAMIC_SHARD);
             event.accept(ModItems.IRON_SHARD);
-            event.accept(ModItems.BLUE_POTATO);
             event.accept(ModItems.FIREAXE);
             event.accept(ModItems.PHOTO_CAMERA);
         }

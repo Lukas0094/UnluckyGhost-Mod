@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unluckyghost:block/gravestone",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "unluckyghost:block/gravestone"
+    },
+    "facing=west": {
+      "model": "unluckyghost:block/gravestone",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "unluckyghost:block/gravestone",
+      "y": 270
+    }
+  }
+}

@@ -4,6 +4,7 @@
     "unluckyghost:test_block",
     "unluckyghost:rusty_sink",
     "unluckyghost:locker",
-    "unluckyghost:empty_bed"
+    "unluckyghost:empty_bed",
+    "unluckyghost:gravestone"
   ]
 }
