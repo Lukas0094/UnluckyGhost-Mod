@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "unluckyghost:ghost_item"
+    },
+    "title": "Secrets of Unlucky Ghost",
+    "description": "Can you discover all secrets of Unlucky Ghost?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "unluckyghost:textures/block/adv_background.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {}
+      }
+    }
+  }
+}
