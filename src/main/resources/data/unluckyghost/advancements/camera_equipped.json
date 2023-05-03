@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "unluckyghost:photo_camera"
+    },
+    "title": "Say Cheese!",
+    "description": "Let me see that Photo!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden":false
+  },
+  "parent": "unluckyghost:unluckyghost",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unluckyghost:photo_camera"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

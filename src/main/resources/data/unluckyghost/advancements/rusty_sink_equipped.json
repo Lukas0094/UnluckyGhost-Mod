@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "unluckyghost:rust_sink"
+    },
+    "title": "That's dirty..",
+    "description": "I will not wash my hands with that..",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden":false
+  },
+  "parent": "unluckyghost:unluckyghost",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unluckyghost:rusty_sink"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

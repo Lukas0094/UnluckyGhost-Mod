@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "unluckyghost:empty_bed"
+    },
+    "title": "You can't sleep here!",
+    "description": "I'ts empty..",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden":false
+  },
+  "parent": "unluckyghost:unluckyghost",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unluckyghost:empty_bed"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

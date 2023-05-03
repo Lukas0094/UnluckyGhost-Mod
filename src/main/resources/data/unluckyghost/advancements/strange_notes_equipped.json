@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "unluckyghost:strange_notes"
+    },
+    "title": "Ohhh.. what are these?",
+    "description": "These things are kinda strange..",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden":false
+  },
+  "parent": "unluckyghost:unluckyghost",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unluckyghost:strange_notes"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

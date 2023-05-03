@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "unluckyghost:wooden_baricade"
+    },
+    "title": "What are these for?",
+    "description": "I'm scared..",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden":false
+  },
+  "parent": "unluckyghost:unluckyghost",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unluckyghost:wooden_baricade"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

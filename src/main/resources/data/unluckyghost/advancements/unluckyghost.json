@@ -3,8 +3,8 @@
     "icon": {
       "item": "unluckyghost:ghost_item"
     },
-    "title": "Secrets of Unlucky Ghost",
-    "description": "Can you discover all secrets of Unlucky Ghost?",
+    "title": "Unlucky Ghost",
+    "description": "So you'r finally here?",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
