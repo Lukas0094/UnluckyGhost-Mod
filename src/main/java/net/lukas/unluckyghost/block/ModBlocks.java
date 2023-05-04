@@ -46,6 +46,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRAVESTONE = registerBlock("gravestone",
             () -> new GravestoneBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final RegistryObject<Block> PURPLE_VASE = registerBlock("purple_vase",
+            () -> new PurpleVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.2f).noOcclusion()));
+
+    public static final RegistryObject<Block> GREEN_VASE = registerBlock("green_vase",
+            () -> new GreenVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.2f).noOcclusion()));
+
+    public static final RegistryObject<Block> LIGHT_BLUE_VASE = registerBlock("light_blue_vase",
+            () -> new LightBlueVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.2f).noOcclusion()));
     
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
