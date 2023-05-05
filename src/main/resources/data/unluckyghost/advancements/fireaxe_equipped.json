@@ -4,7 +4,7 @@
       "item": "unluckyghost:fireaxe"
     },
     "title": "Fire! Fire!",
-    "description": "This could be useful!",
+    "description": "This is not a hammer!",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

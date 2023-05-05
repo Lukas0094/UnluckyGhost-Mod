@@ -3,6 +3,7 @@ package net.lukas.unluckyghost.item;
 import net.lukas.unluckyghost.UnluckyGhost;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PotionItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,6 +32,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> BLUE_POTATO = ITEMS.register("blue_potato",
             () -> new Item(new Item.Properties().food(ModFoods.BLUE_POTATO)));
+
+    public static final RegistryObject<Item> SOUL_BOTTLE = ITEMS.register("soul_bottle",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

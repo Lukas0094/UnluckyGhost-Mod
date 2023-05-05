@@ -4,7 +4,7 @@
       "item": "unluckyghost:ghost_item"
     },
     "title": "Unlucky Ghost",
-    "description": "So you'r finally here?",
+    "description": "So you're finally here?",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
