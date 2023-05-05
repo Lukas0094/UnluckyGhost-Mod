@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "T": {
+      "item": "minecraft:green_terracota"
+    }
+  },
+  "pattern": [
+    "T T",
+    " T "
+  ],
+  "result": {
+    "item": "unluckyghost:green_decorative_vase"
+  }
+}
