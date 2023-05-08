@@ -78,6 +78,7 @@ public class UnluckyGhost
             event.accept(ModItems.IRON_SHARD);
             event.accept(ModItems.FIREAXE);
             event.accept(ModItems.PHOTO_CAMERA);
+            event.accept(ModItems.SOUND_RECORDER);
             event.accept(ModItems.SOUL_BOTTLE);
         }
 

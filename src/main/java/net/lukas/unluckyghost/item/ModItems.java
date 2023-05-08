@@ -1,6 +1,7 @@
 package net.lukas.unluckyghost.item;
 
 import net.lukas.unluckyghost.UnluckyGhost;
+import net.lukas.unluckyghost.item.custom.SoundRecorder;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PotionItem;
@@ -24,7 +25,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FIREAXE = ITEMS.register("fireaxe",
-            () -> new AxeItem(Tiers.IRON, 6, -3f,
+            () -> new AxeItem(ModToolTiers.FIREAXE, 6, -3f,
                     new Item.Properties()));
 
     public static final RegistryObject<Item> PHOTO_CAMERA = ITEMS.register("photo_camera",
@@ -35,6 +36,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SOUL_BOTTLE = ITEMS.register("soul_bottle",
             () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> SOUND_RECORDER = ITEMS.register("sound_recorder",
+            () -> new SoundRecorder(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
