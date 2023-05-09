@@ -38,7 +38,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> SOUND_RECORDER = ITEMS.register("sound_recorder",
-            () -> new SoundRecorder(new Item.Properties()));
+            () -> new SoundRecorder(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
