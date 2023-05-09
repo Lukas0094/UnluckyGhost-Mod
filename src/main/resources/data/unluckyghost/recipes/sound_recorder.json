@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "pattern": [
+    "N N",
+    "IRI",
+    "BBS"
+  ],
+  "result": {
+    "item": "unluckyghost:sound_recorder",
+    "count": 1
+  }
+}
