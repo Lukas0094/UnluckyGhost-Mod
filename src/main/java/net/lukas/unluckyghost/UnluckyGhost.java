@@ -2,6 +2,8 @@ package net.lukas.unluckyghost;
 
 import com.mojang.logging.LogUtils;
 import net.lukas.unluckyghost.block.ModBlocks;
+import net.lukas.unluckyghost.effect.ModEffects;
+import net.lukas.unluckyghost.enchantment.ModEnchantments;
 import net.lukas.unluckyghost.item.ModCreativeModeTabs;
 import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -43,6 +45,10 @@ public class UnluckyGhost
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+
+        ModEnchantments.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

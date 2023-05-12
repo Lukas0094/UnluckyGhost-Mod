@@ -1,6 +1,7 @@
 package net.lukas.unluckyghost.item;
 
 import net.lukas.unluckyghost.UnluckyGhost;
+import net.lukas.unluckyghost.item.custom.PhotoCamera;
 import net.lukas.unluckyghost.item.custom.SoundRecorder;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
@@ -29,7 +30,7 @@ public class ModItems {
                     new Item.Properties()));
 
     public static final RegistryObject<Item> PHOTO_CAMERA = ITEMS.register("photo_camera",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new PhotoCamera(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> BLUE_POTATO = ITEMS.register("blue_potato",
             () -> new Item(new Item.Properties().food(ModFoods.BLUE_POTATO)));

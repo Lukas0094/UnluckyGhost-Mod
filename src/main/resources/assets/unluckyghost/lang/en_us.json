@@ -22,5 +22,9 @@
   "block.unluckyghost.green_decorative_vase": "Green Decorative Vase",
   "block.unluckyghost.light_blue_decorative_vase": "Light Blue Decorative Vase",
 
+  "effect.unluckyghost.soul_freeze": "Soul Freeze",
+
+  "enchantment.unluckyghost.soul_freeze": "Soul Freeze",
+
   "creativemodetab.unluckyghost_tab": "Unlucky Ghost"
 }
