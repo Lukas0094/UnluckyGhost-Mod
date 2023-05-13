@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unluckyghost:block/pillory",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "unluckyghost:block/pillory",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "unluckyghost:block/pillory",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "unluckyghost:block/pillory"
+    }
+  }
+}

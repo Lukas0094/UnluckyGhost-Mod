@@ -24,6 +24,10 @@ public class SoulFreezeEnchantment extends Enchantment {
                 if(pTarget instanceof LivingEntity)
                     ((LivingEntity)pTarget).addEffect(new MobEffectInstance(ModEffects.SOUL_FREEZE.get(), 60, 0, false, true));
             }
+            if(pLevel == 2) {
+                if(pTarget instanceof LivingEntity)
+                    ((LivingEntity)pTarget).addEffect(new MobEffectInstance(ModEffects.SOUL_FREEZE.get(), 100, 0, false, true));
+            }
         }
 
         super.doPostAttack(pAttacker, pTarget, pLevel);
@@ -31,6 +35,6 @@ public class SoulFreezeEnchantment extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 1;
+        return 2;
     }
 }

@@ -72,14 +72,17 @@ public class UnluckyGhost
             event.accept(ModBlocks.GREEN_DECORATIVE_VASE);
             event.accept(ModBlocks.LIGHT_BLUE_DECORATIVE_VASE);
             event.accept(ModBlocks.PURPLE_DECORATIVE_VASE);
+            event.accept(ModBlocks.YELLOW_DECORATIVE_VASE);
             event.accept(ModBlocks.LOCKER);
             event.accept(ModBlocks.EMPTYBED);
             event.accept(ModBlocks.WOODEN_BARICADE);
+            event.accept(ModBlocks.PILLORY);
             event.accept(ModBlocks.GRAVESTONE);
             event.accept(ModBlocks.STRANGE_NOTES);
             event.accept(ModBlocks.GREEN_VASE);
             event.accept(ModBlocks.LIGHT_BLUE_VASE);
             event.accept(ModBlocks.PURPLE_VASE);
+            event.accept(ModBlocks.YELLOW_VASE);
             event.accept(ModItems.CERAMIC_SHARD);
             event.accept(ModItems.IRON_SHARD);
             event.accept(ModItems.FIREAXE);
