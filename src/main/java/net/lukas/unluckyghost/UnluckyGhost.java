@@ -6,6 +6,7 @@ import net.lukas.unluckyghost.effect.ModEffects;
 import net.lukas.unluckyghost.enchantment.ModEnchantments;
 import net.lukas.unluckyghost.item.ModCreativeModeTabs;
 import net.lukas.unluckyghost.item.ModItems;
+import net.lukas.unluckyghost.potion.ModPotions;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -47,6 +48,7 @@ public class UnluckyGhost
         ModBlocks.register(modEventBus);
 
         ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         ModEnchantments.register(modEventBus);
 
@@ -88,11 +90,9 @@ public class UnluckyGhost
             event.accept(ModItems.FIREAXE);
             event.accept(ModItems.PHOTO_CAMERA);
             event.accept(ModItems.SOUND_RECORDER);
-            event.accept(ModItems.SOUL_BOTTLE);
         }
 
     }
-
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)

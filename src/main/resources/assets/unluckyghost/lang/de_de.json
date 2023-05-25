@@ -27,6 +27,12 @@
 
   "effect.unluckyghost.soul_freeze": "Seelen Frost",
 
+  "item.minecraft.potion.effect.soul_freeze_potion": "Trank des Seelen Frosts",
+
+  "item.minecraft.splash_potion.effect.soul_freeze_potion": "Wurftrank des Seelen Frosts",
+
+  "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Verweiltrank des Seelen Frosts",
+
   "enchantment.unluckyghost.soul_freeze": "Seelen Frost",
 
   "creativemodetab.unluckyghost_tab": "Unlucky Ghost"

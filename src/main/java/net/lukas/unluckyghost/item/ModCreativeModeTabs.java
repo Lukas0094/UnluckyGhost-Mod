@@ -1,6 +1,7 @@
 package net.lukas.unluckyghost.item;
 
 import net.lukas.unluckyghost.UnluckyGhost;
+import net.lukas.unluckyghost.block.ModBlocks;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +17,7 @@ public class ModCreativeModeTabs {
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         UNLUCKYGHOST_TAB = event.registerCreativeModeTab(new ResourceLocation(UnluckyGhost.MOD_ID, "unluckyghost_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.GHOST_ITEM.get()))
+                builder -> builder.icon(() -> new ItemStack(ModBlocks.PILLORY.get()))
                         .title(Component.translatable("creativemodetab.unluckyghost_tab")));
     }
 }

@@ -27,6 +27,12 @@
 
   "effect.unluckyghost.soul_freeze": "Soul Freeze",
 
+  "item.minecraft.potion.effect.soul_freeze_potion": "Soul Freeze Potion",
+
+  "item.minecraft.splash_potion.effect.soul_freeze_potion": "Soul Freeze Splash Potion",
+
+  "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Soul Freeze Lingering Potion",
+
   "enchantment.unluckyghost.soul_freeze": "Soul Freeze",
 
   "creativemodetab.unluckyghost_tab": "Unlucky Ghost"

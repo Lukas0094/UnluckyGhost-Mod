@@ -13,7 +13,7 @@ public class ModEffects {
             = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, UnluckyGhost.MOD_ID);
 
     public static final RegistryObject<MobEffect> SOUL_FREEZE = MOB_EFFECTS.register("soul_freeze",
-            () -> new SoulFreezeEffect(MobEffectCategory.HARMFUL, 11119017));
+            () -> new SoulFreezeEffect(MobEffectCategory.HARMFUL, 8289918));
 
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
