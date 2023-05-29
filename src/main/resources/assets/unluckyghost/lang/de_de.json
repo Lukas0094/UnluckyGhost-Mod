@@ -2,11 +2,14 @@
   "item.unluckyghost.ghost_item": "Geist Plüschtier",
   "item.unluckyghost.ceramic_shard": "Keramik Bruchteil",
   "item.unluckyghost.iron_shard": "Eisen Bruchteil",
+  "item.unluckyghost.ice_shard": "Eis Bruchteil",
   "item.unluckyghost.blue_potato": "Blaue Kartoffel",
   "item.unluckyghost.fireaxe": "Feuerwehraxt",
   "item.unluckyghost.photo_camera": "Kamera",
   "item.unluckyghost.soul_bottle": "Seelenflasche",
   "item.unluckyghost.sound_recorder": "Geräuschaufnahmegerät",
+  "item.unluckyghost.magic_berry": "Magische Beere",
+  "item.unluckyghost.strange_seeds": "Komische Samen",
 
   "block.unluckyghost.test_block": "Test Block",
   "block.unluckyghost.wooden_baricade": "Hölzerne Barrikade",
@@ -28,10 +31,13 @@
   "effect.unluckyghost.soul_freeze": "Seelen Frost",
 
   "item.minecraft.potion.effect.soul_freeze_potion": "Trank des Seelen Frosts",
+  "item.minecraft.potion.effect.soul_bottle": "Seelen Flasche",
 
   "item.minecraft.splash_potion.effect.soul_freeze_potion": "Wurftrank des Seelen Frosts",
+  "item.minecraft.splash_potion.effect.soul_bottle": "Seelen Wurfflasche",
 
   "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Verweiltrank des Seelen Frosts",
+  "item.minecraft.lingering_potion.effect.soul_bottle": "Seelen Verweilflasche",
 
   "enchantment.unluckyghost.soul_freeze": "Seelen Frost",
 

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": {"model": "unluckyghost:block/magic_berry_stage0"},
+    "age=1": {"model": "unluckyghost:block/magic_berry_stage1"},
+    "age=2": {"model": "unluckyghost:block/magic_berry_stage2"},
+    "age=3": {"model": "unluckyghost:block/magic_berry_stage3"},
+    "age=4": {"model": "unluckyghost:block/magic_berry_stage4"},
+    "age=5": {"model": "unluckyghost:block/magic_berry_stage5"},
+    "age=6": {"model": "unluckyghost:block/magic_berry_stage6"}
+  }
+}

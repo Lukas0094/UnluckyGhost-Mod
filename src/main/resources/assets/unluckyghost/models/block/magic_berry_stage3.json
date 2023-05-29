@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "unluckyghost:block/magic_berry_stage3"
+  }
+}

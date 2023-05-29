@@ -2,11 +2,14 @@
   "item.unluckyghost.ghost_item": "Ghost Plushy",
   "item.unluckyghost.ceramic_shard": "Ceramic Shard",
   "item.unluckyghost.iron_shard": "Iron Shard",
+  "item.unluckyghost.ice_shard": "Ice Shard",
   "item.unluckyghost.blue_potato": "Blue Potato",
   "item.unluckyghost.fireaxe": "Fireaxe",
   "item.unluckyghost.photo_camera": "Photo Camera",
   "item.unluckyghost.soul_bottle": "Soul Bottle",
   "item.unluckyghost.sound_recorder": "Sound Recorder",
+  "item.unluckyghost.magic_berry": "Magic Berry",
+  "item.unluckyghost.strange_seeds": "Strange Seeds",
 
   "block.unluckyghost.test_block": "Test Block",
   "block.unluckyghost.wooden_baricade": "Wooden Barricade",
@@ -24,14 +27,18 @@
   "block.unluckyghost.light_blue_decorative_vase": "Light Blue Decorative Vase",
   "block.unluckyghost.yellow_decorative_vase": "Yellow Decorative Vase",
   "block.unluckyghost.pillory": "Pillory",
+  "block.unluckyghost.magic_crop": "Magic Crop",
 
   "effect.unluckyghost.soul_freeze": "Soul Freeze",
 
   "item.minecraft.potion.effect.soul_freeze_potion": "Soul Freeze Potion",
+  "item.minecraft.potion.effect.soul_bottle": "Soul Bottle",
 
   "item.minecraft.splash_potion.effect.soul_freeze_potion": "Soul Freeze Splash Potion",
+  "item.minecraft.splash_potion.effect.soul_bottle": "Soul Splash Bottle",
 
   "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Soul Freeze Lingering Potion",
+  "item.minecraft.lingering_potion.effect.soul_bottle": "Soul Lingering Bottle",
 
   "enchantment.unluckyghost.soul_freeze": "Soul Freeze",
 

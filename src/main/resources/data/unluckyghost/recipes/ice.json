@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "unluckyghost:ice_shard"
+    },
+    "pattern": [
+      "II",
+      "II"
+    ],
+    "result": {
+      "item": "minecraft:ice"
+    }
+  }
+}

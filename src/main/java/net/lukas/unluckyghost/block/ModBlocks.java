@@ -6,6 +6,7 @@ import net.lukas.unluckyghost.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -82,6 +83,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PILLORY = registerBlock("pillory",
             () -> new PilloryBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(2f).noOcclusion()));
+
+    public static final RegistryObject<Block> MAGIC_CROP = BLOCKS.register("magic_crop",
+            () -> new MagicCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
