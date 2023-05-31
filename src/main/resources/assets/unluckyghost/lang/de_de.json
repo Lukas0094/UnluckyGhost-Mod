@@ -39,6 +39,9 @@
   "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Verweiltrank des Seelen Frosts",
   "item.minecraft.lingering_potion.effect.soul_bottle": "Seelen Verweilflasche",
 
+  "item.minecraft.tipped_arrow.effect.soul_freeze_potion": "Pfeil des Seelen Frosts",
+  "item.minecraft.tipped_arrow.effect.soul_bottle": "Pfeil der Seelen Flasche",
+
   "enchantment.unluckyghost.soul_freeze": "Seelen Frost",
 
   "creativemodetab.unluckyghost_tab": "Unlucky Ghost"

@@ -40,6 +40,9 @@
   "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Soul Freeze Lingering Potion",
   "item.minecraft.lingering_potion.effect.soul_bottle": "Soul Lingering Bottle",
 
+  "item.minecraft.tipped_arrow.effect.soul_freeze_potion": "Arrow of Soul Freeze",
+  "item.minecraft.tipped_arrow.effect.soul_bottle": "Arrow of Soul Bottle",
+
   "enchantment.unluckyghost.soul_freeze": "Soul Freeze",
 
   "creativemodetab.unluckyghost_tab": "Unlucky Ghost"
