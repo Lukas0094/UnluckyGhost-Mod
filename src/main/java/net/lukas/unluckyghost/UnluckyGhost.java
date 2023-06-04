@@ -91,6 +91,8 @@ public class UnluckyGhost
             event.accept(ModItems.SOUND_RECORDER);
             event.accept(ModItems.STRANGE_SEEDS);
             event.accept(ModItems.MAGIC_BERRY);
+            event.accept(ModItems.SOUL_INVINCIBILITY_INGREDIENT);
+            event.accept(ModItems.SOUL_SUPER_STRENGTH_INGREDIENT);
         }
 
     }

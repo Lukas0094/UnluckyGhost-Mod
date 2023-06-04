@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "E": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "B": {
+      "item": "unluckyghost:magic_berry"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "M": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "MSM",
+    "GBP",
+    "MEM"
+  ],
+  "result": {
+    "item": "unluckyghost:soul_super_strength_ingredient",
+    "count": 1
+  }
+}

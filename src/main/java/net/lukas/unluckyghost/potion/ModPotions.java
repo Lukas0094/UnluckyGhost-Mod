@@ -17,6 +17,12 @@ public class ModPotions {
     public static final RegistryObject<Potion> SOUL_FREEZE_POTION = POTIONS.register("soul_freeze_potion",
             () -> new Potion(new MobEffectInstance(ModEffects.SOUL_FREEZE.get(), 100, 0)));
 
+    public static final RegistryObject<Potion> SOUL_INVINCIBILITY_POTION = POTIONS.register("soul_invincibility_potion",
+            () -> new Potion(new MobEffectInstance(MobEffects.WEAKNESS, 600, 4), new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 4)));
+
+    public static final RegistryObject<Potion> SOUL_SUPER_STRENGTH_POTION = POTIONS.register("soul_super_strength_potion",
+            () -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 1), new MobEffectInstance(MobEffects.DIG_SPEED, 1200, 1), new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1200, 1)));
+
     public static final RegistryObject<Potion> SOUL_BOTTLE = POTIONS.register("soul_bottle",
             () -> new Potion(new MobEffectInstance(MobEffects.CONFUSION, 200, 0)));
 

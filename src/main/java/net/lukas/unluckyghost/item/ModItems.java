@@ -51,6 +51,12 @@ public class ModItems {
     public static final RegistryObject<Item> MAGIC_BERRY = ITEMS.register("magic_berry",
             () -> new MagicBerry(new Item.Properties().food(ModFoods.MAGIC_BERRY)));
 
+    public static final RegistryObject<Item> SOUL_INVINCIBILITY_INGREDIENT = ITEMS.register("soul_invincibility_ingredient",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SOUL_SUPER_STRENGTH_INGREDIENT = ITEMS.register("soul_super_strength_ingredient",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

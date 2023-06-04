@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "T": {
+      "item": "minecraft:scute"
+    },
+    "S": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "B": {
+      "item": "unluckyghost:magic_berry"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "ISE",
+    "TBT",
+    "ESI"
+  ],
+  "result": {
+    "item": "unluckyghost:soul_invincibility_ingredient",
+    "count": 1
+  }
+}
