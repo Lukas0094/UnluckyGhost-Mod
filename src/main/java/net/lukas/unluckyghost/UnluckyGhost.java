@@ -62,6 +62,12 @@ public class UnluckyGhost
 
             BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(ModPotions.SOUL_BOTTLE.get(),
                     ModItems.ICE_SHARD.get(), ModPotions.SOUL_FREEZE_POTION.get()));
+
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(ModPotions.SOUL_BOTTLE.get(),
+                    ModItems.SOUL_INVINCIBILITY_INGREDIENT.get(), ModPotions.SOUL_INVINCIBILITY_POTION.get()));
+
+            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(ModPotions.SOUL_BOTTLE.get(),
+                    ModItems.SOUL_SUPER_STRENGTH_INGREDIENT.get(), ModPotions.SOUL_SUPER_STRENGTH_POTION.get()));
         });
     }
 
