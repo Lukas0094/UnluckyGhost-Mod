@@ -13,7 +13,7 @@ public class SoulFreezeEffect extends MobEffect {
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         pLivingEntity.setDeltaMovement(0,0,0);
         pLivingEntity.hurtMarked = true;
-        if (!pLivingEntity.level.isClientSide()) {
+        if (!pLivingEntity.level().isClientSide()) {
             double x = pLivingEntity.getX();
             double y = pLivingEntity.getY();
             double z = pLivingEntity.getZ();

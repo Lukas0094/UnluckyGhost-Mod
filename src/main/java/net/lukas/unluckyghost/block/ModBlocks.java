@@ -8,7 +8,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,67 +20,67 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, UnluckyGhost.MOD_ID);
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(4f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> WOODEN_BARICADE = registerBlock("wooden_baricade",
-            () -> new WoodenBaricadeBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new WoodenBaricadeBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
                     .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
 
     public static final RegistryObject<Block> RUSTY_SINK = registerBlock("rusty_sink",
-            () -> new RustySinkBlock(BlockBehaviour.Properties.of(Material.CLAY)
+            () -> new RustySinkBlock(BlockBehaviour.Properties.copy(Blocks.CLAY)
                     .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
 
     public static final RegistryObject<Block> STRANGE_NOTES = registerBlock("strange_notes",
-            () -> new StrangeNotesBlock(BlockBehaviour.Properties.of(Material.PLANT)
+            () -> new StrangeNotesBlock(BlockBehaviour.Properties.copy(Blocks.SUGAR_CANE)
                     .strength(0f).noOcclusion()));
 
     public static final RegistryObject<Block> LOCKER = registerBlock("locker",
-            () -> new LockerBlock(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new LockerBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .strength(3f).noOcclusion()));
 
     public static final RegistryObject<Block> EMPTYBED = registerBlock("empty_bed",
-            () -> new EmptyBedBlock(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new EmptyBedBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .strength(3f).noOcclusion()));
 
     public static final RegistryObject<Block> GRAVESTONE = registerBlock("gravestone",
-            () -> new GravestoneBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new GravestoneBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(4f).requiresCorrectToolForDrops().noOcclusion()));
 
     public static final RegistryObject<Block> PURPLE_VASE = registerBlock("purple_vase",
-            () -> new PurpleVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new PurpleVaseBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> GREEN_VASE = registerBlock("green_vase",
-            () -> new GreenVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new GreenVaseBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> LIGHT_BLUE_VASE = registerBlock("light_blue_vase",
-            () -> new LightBlueVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new LightBlueVaseBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> YELLOW_VASE = registerBlock("yellow_vase",
-            () -> new YellowVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new YellowVaseBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> PURPLE_DECORATIVE_VASE = registerBlock("purple_decorative_vase",
-            () -> new PurpleDecorativeVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new PurpleDecorativeVaseBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> GREEN_DECORATIVE_VASE = registerBlock("green_decorative_vase",
-            () -> new GreenDecorativeVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new GreenDecorativeVaseBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> LIGHT_BLUE_DECORATIVE_VASE = registerBlock("light_blue_decorative_vase",
-            () -> new LightBlueDecorativeVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new LightBlueDecorativeVaseBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> YELLOW_DECORATIVE_VASE = registerBlock("yellow_decorative_vase",
-            () -> new YellowDecorativeVaseBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new YellowDecorativeVaseBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_TERRACOTTA)
                     .strength(0.2f).noOcclusion()));
 
     public static final RegistryObject<Block> PILLORY = registerBlock("pillory",
-            () -> new PilloryBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new PilloryBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)
                     .strength(2f).noOcclusion()));
 
     public static final RegistryObject<Block> MAGIC_CROP = BLOCKS.register("magic_crop",

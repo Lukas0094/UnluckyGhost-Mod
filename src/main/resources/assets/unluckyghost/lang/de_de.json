@@ -10,8 +10,8 @@
   "item.unluckyghost.sound_recorder": "Geräuschaufnahmegerät",
   "item.unluckyghost.magic_berry": "Magische Beere",
   "item.unluckyghost.strange_seeds": "Komische Samen",
-  "item.unluckyghost.soul_invincibility_ingredient": "Seelen Unsterblichkeits Zutat",
-  "item.unluckyghost.soul_super_strength_ingredient": "Seelen Super Sträke Zutat",
+  "item.unluckyghost.soul_invincibility_ingredient": "Seelen Unsterblichkeits Pulver",
+  "item.unluckyghost.soul_super_strength_ingredient": "Seelen Super Sträke Pulver",
 
   "block.unluckyghost.test_block": "Test Block",
   "block.unluckyghost.wooden_baricade": "Hölzerne Barrikade",
@@ -35,22 +35,22 @@
   "item.minecraft.potion.effect.soul_freeze_potion": "Trank des Seelen Frosts",
   "item.minecraft.potion.effect.soul_invincibility_potion": "Trank der Seelen Unsterblichkeit",
   "item.minecraft.potion.effect.soul_super_strength_potion": "Trank der Super Stärke",
-  "item.minecraft.potion.effect.soul_bottle": "Seelen Flasche",
+  "item.minecraft.potion.effect.soul_bottle": "Magischer Trank",
 
   "item.minecraft.splash_potion.effect.soul_freeze_potion": "Wurftrank des Seelen Frosts",
   "item.minecraft.splash_potion.effect.soul_invincibility_potion": "Wurftrank der Seelen Unsterblichkeit",
   "item.minecraft.splash_potion.effect.soul_super_strength_potion": "Wurftrank der Seelen Super Stärke",
-  "item.minecraft.splash_potion.effect.soul_bottle": "Seelen Wurfflasche",
+  "item.minecraft.splash_potion.effect.soul_bottle": "Magischer Wurftrank",
 
   "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Verweiltrank des Seelen Frosts",
   "item.minecraft.lingering_potion.effect.soul_invincibility_potion": "Verweiltrank der Seelen Unsterblichkeit",
   "item.minecraft.lingering_potion.effect.soul_super_strength_potion": "Verweiltrank der Seelen Super Stärke",
-  "item.minecraft.lingering_potion.effect.soul_bottle": "Seelen Verweilflasche",
+  "item.minecraft.lingering_potion.effect.soul_bottle": "Magischer Verweiltrank",
 
   "item.minecraft.tipped_arrow.effect.soul_freeze_potion": "Pfeil des Seelen Frosts",
   "item.minecraft.tipped_arrow.effect.soul_invincibility_potion": "Pfeil der Seelen Unsterblichkeit",
   "item.minecraft.tipped_arrow.effect.soul_super_strength_potion": "Pfeil der Seelen Super Stärke",
-  "item.minecraft.tipped_arrow.effect.soul_bottle": "Pfeil der Seelen Flasche",
+  "item.minecraft.tipped_arrow.effect.soul_bottle": "Magischer Pfeil",
 
   "enchantment.unluckyghost.soul_freeze": "Seelen Frost",
 

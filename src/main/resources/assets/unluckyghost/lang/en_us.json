@@ -10,8 +10,8 @@
   "item.unluckyghost.sound_recorder": "Sound Recorder",
   "item.unluckyghost.magic_berry": "Magic Berry",
   "item.unluckyghost.strange_seeds": "Strange Seeds",
-  "item.unluckyghost.soul_invincibility_ingredient": "Soul Invincibility Ingredient",
-  "item.unluckyghost.soul_super_strength_ingredient": "Soul Super Strength Ingredient",
+  "item.unluckyghost.soul_invincibility_ingredient": "Soul Invincibility Powder",
+  "item.unluckyghost.soul_super_strength_ingredient": "Soul Super Strength Powder",
 
   "block.unluckyghost.test_block": "Test Block",
   "block.unluckyghost.wooden_baricade": "Wooden Barricade",
@@ -36,22 +36,22 @@
   "item.minecraft.potion.effect.soul_freeze_potion": "Soul Freeze Potion",
   "item.minecraft.potion.effect.soul_invincibility_potion": "Soul Invincibility Potion",
   "item.minecraft.potion.effect.soul_super_strength_potion": "Soul Super Strength Potion",
-  "item.minecraft.potion.effect.soul_bottle": "Soul Bottle",
+  "item.minecraft.potion.effect.soul_bottle": "Magic Potion",
 
   "item.minecraft.splash_potion.effect.soul_freeze_potion": "Soul Freeze Splash Potion",
   "item.minecraft.splash_potion.effect.soul_invincibility_potion": "Soul Invincibility Splash Potion",
   "item.minecraft.splash_potion.effect.soul_super_strength_potion": "Soul Super Strength Splash Potion",
-  "item.minecraft.splash_potion.effect.soul_bottle": "Soul Splash Bottle",
+  "item.minecraft.splash_potion.effect.soul_bottle": "Magic Splash Potion",
 
   "item.minecraft.lingering_potion.effect.soul_freeze_potion": "Soul Freeze Lingering Potion",
   "item.minecraft.lingering_potion.effect.soul_invincibility_potion": "Soul Invincibility Lingering Potion",
   "item.minecraft.lingering_potion.effect.soul_super_strength_potion": "Soul Super Strength Lingering Potion",
-  "item.minecraft.lingering_potion.effect.soul_bottle": "Soul Lingering Bottle",
+  "item.minecraft.lingering_potion.effect.soul_bottle": "Magic Lingering Potion",
 
   "item.minecraft.tipped_arrow.effect.soul_freeze_potion": "Arrow of Soul Freeze",
   "item.minecraft.tipped_arrow.effect.soul_invincibility_potion": "Arrow of Soul Invincibility",
   "item.minecraft.tipped_arrow.effect.soul_super_strength_potion": "Arrow of Soul Super Strength",
-  "item.minecraft.tipped_arrow.effect.soul_bottle": "Arrow of Soul Bottle",
+  "item.minecraft.tipped_arrow.effect.soul_bottle": "Magic Arrow",
 
   "enchantment.unluckyghost.soul_freeze": "Soul Freeze",
 

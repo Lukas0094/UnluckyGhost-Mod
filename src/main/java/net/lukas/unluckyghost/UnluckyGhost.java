@@ -11,11 +11,10 @@ import net.lukas.unluckyghost.util.BetterBrewingRecipe;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.alchemy.Potions;
-import net.minecraft.world.level.block.IceBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -36,6 +35,8 @@ public class UnluckyGhost
     public UnluckyGhost()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -71,8 +72,8 @@ public class UnluckyGhost
         });
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTab() == ModCreativeModeTabs.UNLUCKYGHOST_TAB.get()) {
             event.accept(ModItems.GHOST_ITEM);
             event.accept(ModBlocks.RUSTY_SINK);
             event.accept(ModBlocks.GREEN_DECORATIVE_VASE);
