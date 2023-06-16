@@ -7,6 +7,7 @@ import net.lukas.unluckyghost.enchantment.ModEnchantments;
 import net.lukas.unluckyghost.item.ModCreativeModeTabs;
 import net.lukas.unluckyghost.item.ModItems;
 import net.lukas.unluckyghost.potion.ModPotions;
+import net.lukas.unluckyghost.sound.ModSounds;
 import net.lukas.unluckyghost.util.BetterBrewingRecipe;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -40,6 +41,8 @@ public class UnluckyGhost
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
@@ -81,7 +84,7 @@ public class UnluckyGhost
             event.accept(ModBlocks.PURPLE_DECORATIVE_VASE);
             event.accept(ModBlocks.YELLOW_DECORATIVE_VASE);
             event.accept(ModBlocks.LOCKER);
-            event.accept(ModBlocks.EMPTYBED);
+            event.accept(ModBlocks.EMPTY_BED);
             event.accept(ModBlocks.WOODEN_BARICADE);
             event.accept(ModBlocks.PILLORY);
             event.accept(ModBlocks.GRAVESTONE);

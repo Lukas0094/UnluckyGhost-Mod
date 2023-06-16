@@ -30,6 +30,9 @@
   "block.unluckyghost.yellow_decorative_vase": "Gelbe Dekorative Vase",
   "block.unluckyghost.pillory": "Pranger",
 
+  "sounds.unluckyghost.strange_notes_place": "Komische Notizen abgelegt",
+  "sounds.unluckyghost.strange_notes_break": "Komische Notizen zerstört",
+
   "effect.unluckyghost.soul_freeze": "Seelen Frost",
 
   "item.minecraft.potion.effect.soul_freeze_potion": "Trank des Seelen Frosts",

@@ -31,6 +31,9 @@
   "block.unluckyghost.pillory": "Pillory",
   "block.unluckyghost.magic_crop": "Magic Crop",
 
+  "sounds.unluckyghost.strange_notes_place": "Strange Notes Placed",
+  "sounds.unluckyghost.strange_notes_break": "Strange Notes Broke",
+
   "effect.unluckyghost.soul_freeze": "Soul Freeze",
 
   "item.minecraft.potion.effect.soul_freeze_potion": "Soul Freeze Potion",
