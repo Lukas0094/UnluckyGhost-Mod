@@ -1,6 +1,14 @@
 {
-  "testsounds": {
+  "strange_notes_break": {
+    "subtitle": "sounds.unluckyghost.strange_notes_break",
     "sounds": [
-      "unluckyghost:testsound"]
+      "unluckyghost:strange_notes_break"
+    ]
+  },
+  "strange_notes_place": {
+    "subtitle": "sounds.unluckyghost.strange_notes_place",
+    "sounds": [
+      "unluckyghost:strange_notes_place"
+    ]
   }
 }
