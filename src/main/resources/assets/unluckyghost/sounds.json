@@ -1,14 +1,14 @@
 {
-  "strange_notes_break": {
-    "subtitle": "sounds.unluckyghost.strange_notes_break",
+  "notes_break": {
+    "subtitle": "sounds.unluckyghost.notes_break",
     "sounds": [
-      "unluckyghost:strange_notes_break"
+      "unluckyghost:notes_break"
     ]
   },
-  "strange_notes_place": {
-    "subtitle": "sounds.unluckyghost.strange_notes_place",
+  "notes_place": {
+    "subtitle": "sounds.unluckyghost.notes_place",
     "sounds": [
-      "unluckyghost:strange_notes_place"
+      "unluckyghost:notes_place"
     ]
   }
 }

@@ -13,11 +13,11 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, UnluckyGhost.MOD_ID);
 
-    public static final RegistryObject<SoundEvent> STRANGE_NOTES_BREAK = registerSoundEvent("strange_notes_break");
-    public static final RegistryObject<SoundEvent> STRANGE_NOTES_PLACE = registerSoundEvent("strange_notes_place");
+    public static final RegistryObject<SoundEvent> NOTES_BREAK = registerSoundEvent("notes_break");
+    public static final RegistryObject<SoundEvent> NOTES_PLACE = registerSoundEvent("notes_place");
 
-    public static final ForgeSoundType STRANGE_NOTES_SOUNDS = new ForgeSoundType(1f, 1f,
-            ModSounds.STRANGE_NOTES_BREAK, null, ModSounds.STRANGE_NOTES_PLACE, null, null);
+    public static final ForgeSoundType NOTES_SOUNDS = new ForgeSoundType(1f, 1f,
+            ModSounds.NOTES_BREAK, null, ModSounds.NOTES_PLACE, null, null);
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = new ResourceLocation(UnluckyGhost.MOD_ID, name);

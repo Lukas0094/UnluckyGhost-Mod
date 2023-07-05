@@ -18,7 +18,9 @@
   "block.unluckyghost.locker": "Schrank",
   "block.unluckyghost.empty_bed": "Leeres Bett",
   "block.unluckyghost.rusty_sink": "Altes Waschbecken",
-  "block.unluckyghost.strange_notes": "Komische Notizen",
+  "block.unluckyghost.strange_notes": "Seltsame Notizen",
+  "block.unluckyghost.weird_notes": "Komische Notizen",
+  "block.unluckyghost.knowledge_notes": "Wissens Notizen",
   "block.unluckyghost.gravestone": "Grabstein",
   "block.unluckyghost.purple_vase": "Violette Vase",
   "block.unluckyghost.green_vase": "Grüne Vase",
@@ -30,8 +32,8 @@
   "block.unluckyghost.yellow_decorative_vase": "Gelbe Dekorative Vase",
   "block.unluckyghost.pillory": "Pranger",
 
-  "sounds.unluckyghost.strange_notes_place": "Komische Notizen abgelegt",
-  "sounds.unluckyghost.strange_notes_break": "Komische Notizen zerstört",
+  "sounds.unluckyghost.notes_place": "Notizen abgelegt",
+  "sounds.unluckyghost.notes_break": "Notizen zerstört",
 
   "effect.unluckyghost.soul_freeze": "Seelen Frost",
 

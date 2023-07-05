@@ -19,6 +19,8 @@
   "block.unluckyghost.empty_bed": "Empty Bed",
   "block.unluckyghost.rusty_sink": "Rusty Sink",
   "block.unluckyghost.strange_notes": "Strange Notes",
+  "block.unluckyghost.weird_notes": "Weird Notes",
+  "block.unluckyghost.knowledge_notes": "Knowledge Notes",
   "block.unluckyghost.gravestone": "Gravestone",
   "block.unluckyghost.purple_vase": "Purple Vase",
   "block.unluckyghost.green_vase": "Green Vase",
@@ -31,8 +33,8 @@
   "block.unluckyghost.pillory": "Pillory",
   "block.unluckyghost.magic_crop": "Magic Crop",
 
-  "sounds.unluckyghost.strange_notes_place": "Strange Notes Placed",
-  "sounds.unluckyghost.strange_notes_break": "Strange Notes Broke",
+  "sounds.unluckyghost.notes_place": "Notes Placed",
+  "sounds.unluckyghost.notes_break": "Notes Broke",
 
   "effect.unluckyghost.soul_freeze": "Soul Freeze",
 

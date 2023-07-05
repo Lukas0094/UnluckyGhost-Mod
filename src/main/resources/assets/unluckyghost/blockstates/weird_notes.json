@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unluckyghost:block/weird_notes",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "unluckyghost:block/weird_notes"
+    },
+    "facing=west": {
+      "model": "unluckyghost:block/weird_notes",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "unluckyghost:block/weird_notes",
+      "y": 270
+    }
+  }
+}

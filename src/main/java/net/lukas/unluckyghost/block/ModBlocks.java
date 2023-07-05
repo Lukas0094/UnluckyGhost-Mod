@@ -6,6 +6,7 @@ import net.lukas.unluckyghost.item.ModItems;
 import net.lukas.unluckyghost.sound.ModSounds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.KnowledgeBookItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -33,7 +34,15 @@ public class ModBlocks {
                     .strength(4f).noOcclusion()));
 
     public static final RegistryObject<Block> STRANGE_NOTES = registerBlock("strange_notes",
-            () -> new StrangeNotesBlock(BlockBehaviour.Properties.of().noParticlesOnBreak().sound(ModSounds.STRANGE_NOTES_SOUNDS)
+            () -> new StrangeNotesBlock(BlockBehaviour.Properties.of().noParticlesOnBreak().sound(ModSounds.NOTES_SOUNDS)
+                    .strength(0f).noOcclusion()));
+
+    public static final RegistryObject<Block> WEIRD_NOTES = registerBlock("weird_notes",
+            () -> new WeirdNotesBlock(BlockBehaviour.Properties.of().noParticlesOnBreak().sound(ModSounds.NOTES_SOUNDS)
+                    .strength(0f).noOcclusion()));
+
+    public static final RegistryObject<Block> KNOWLEDGE_NOTES = registerBlock("knowledge_notes",
+            () -> new KnowledgeNotesBlock(BlockBehaviour.Properties.of().noParticlesOnBreak().sound(ModSounds.NOTES_SOUNDS)
                     .strength(0f).noOcclusion()));
 
     public static final RegistryObject<Block> LOCKER = registerBlock("locker",

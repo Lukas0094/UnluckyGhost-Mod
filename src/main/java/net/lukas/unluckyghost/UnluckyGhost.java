@@ -89,6 +89,8 @@ public class UnluckyGhost
             event.accept(ModBlocks.PILLORY);
             event.accept(ModBlocks.GRAVESTONE);
             event.accept(ModBlocks.STRANGE_NOTES);
+            event.accept(ModBlocks.WEIRD_NOTES);
+            event.accept(ModBlocks.KNOWLEDGE_NOTES);
             event.accept(ModBlocks.GREEN_VASE);
             event.accept(ModBlocks.LIGHT_BLUE_VASE);
             event.accept(ModBlocks.PURPLE_VASE);
